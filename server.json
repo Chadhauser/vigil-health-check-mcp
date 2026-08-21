@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.json",
+  "name": "com.vigilledger/health-check",
+  "description": "Free, read-only bookkeeping health check for Xero books. Supply standard exports as CSV; returns a 0-100 score with findings explained. Nothing stored, nothing connected.",
+  "status": "active",
+  "version": "1.1.0",
+  "websiteUrl": "https://www.vigilledger.com/mcp.html",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.vigilledger.com/api/mcp"
+    }
+  ]
+}
